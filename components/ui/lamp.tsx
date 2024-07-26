@@ -8,7 +8,7 @@ export function LampDemo() {
   return (
     <LampContainer>
       <motion.h1
-        initial={{ opacity: 0.5, y: 100 }}
+        initial={{ opacity: 0, y: 100 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{
           delay: 0.3,
@@ -23,9 +23,8 @@ export function LampDemo() {
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ delay: 1.2, duration: 0.5, ease: "easeInOut" }}
-        className="mt-4"
-      >
-        <ScrollButton />
+        className="mt-4">
+        <ScrollButton/>
       </motion.div>
     </LampContainer>
   );

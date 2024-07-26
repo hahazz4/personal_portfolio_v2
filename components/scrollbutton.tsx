@@ -7,7 +7,7 @@ const ScrollButton = () => {
   };
 
   return (
-    <div className="flex justify-center items-center w-full">
+    <div className="flex justify-center items-center w-full mt-10">
       <button
         onClick={handleScroll}
         className="relative inline-flex h-12 overflow-hidden 
