@@ -66,10 +66,10 @@ const Me = () => {
                 </div>
                 <div className="pl-20 pr-20">
                     <h1 className="text-white text-center text-lg font-sm md:text-4xl">
-                        My name is Zeerak.
+                        My Name is Zeerak.
                     </h1>
                     <p className="text-white text-center text-lg md:text-xl lg:text-xl">
-                        Recent Computer Engineering Graduate
+                        I am a Recent Computer Engineering Graduate
                     </p>
                     <div className="mt-10">
                         <ScrollButton2 />

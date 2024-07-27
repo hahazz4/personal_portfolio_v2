@@ -6,7 +6,7 @@ const resume = () => {
   return (
     <div className="flex justify-center mt-20">
       <h1 className="text-white text-center text-lg font-sm md:text-4xl">
-        Zeerak's Resume
+        Zeerak&apos;s Resume
       </h1>
       <div className="ml-10 mr-10">
         <LuArrowRightCircle size={50} color='white'/>
