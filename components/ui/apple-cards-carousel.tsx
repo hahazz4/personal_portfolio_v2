@@ -26,6 +26,7 @@ type Card = {
   title: string;
   category: string;
   content: React.ReactNode;
+  videoURL?: string;
 };
 
 export const CarouselContext = createContext<{
@@ -232,6 +233,15 @@ export const Card = ({
                 {card.title}
               </motion.p>
               <div className="py-10">{card.content}</div>
+               
+                <div className="mt-4">
+                
+                <video controls className="w-full rounded-md">
+                  <source src={card.videoURL} type="video/mp4"/>
+                  Hey... unfortuntately your browser does not support the video tag.
+                </video>
+              </div>
+               
             </motion.div>
           </div>
         )}
