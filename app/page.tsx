@@ -25,9 +25,6 @@ export default function Home(){
           <div className="mt-20 mb-60">
             <Resume/>
           </div>
-          <div className="mt-10">
-            <ScrollButton3 />
-          </div>
         </div>
 
         <div id="projects" className="pt-20 pb-20">

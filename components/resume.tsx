@@ -1,18 +1,19 @@
 import React from 'react'
 import ScrollButton3 from './scrollbutton3'
-import { LuArrowRightCircle } from 'react-icons/lu'
+import { GiClick } from "react-icons/gi";
 
 const resume = () => {
   return (
-    <div className="flex justify-center mt-20">
+    <div id="resume_box" className="justify-center mt-20">
       <h1 className="text-white text-center text-lg font-sm md:text-4xl">
         Zeerak&apos;s Resume
       </h1>
-      <div className="ml-10 mr-10">
-        <LuArrowRightCircle size={50} color='white'/>
+      <div className="flex text-white justify-center mt-3">
+        <p className="text-white text-center mr-2">Click Here -&gt;</p>
+        <a href = "/Zeerak_Resume_S24.PDF" target = "_blank"><GiClick color='white' size={35}/></a>
       </div>
-      <div className="text-white">
-        <a href = "/Zeerak_Resume_S24.PDF" target = "_blank">Click Here</a>
+      <div className="mt-10">
+          <ScrollButton3 />
       </div>
     </div>
   )

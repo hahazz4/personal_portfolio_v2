@@ -55,7 +55,7 @@ const Me = () => {
             )}
             */}
             <div id="intro" className="flex justify-center items-center mt-20">
-                <div className="ml-20">
+                <div id="pfp" className="ml-20">
                     <Image 
                         src="/images/zeerak_pfp.png"
                         alt="Picture of Zeerak in a suit"
@@ -64,7 +64,7 @@ const Me = () => {
                         className="rounded-full aspect-square object-cover"
                     />
                 </div>
-                <div className="pl-20 pr-20">
+                <div id="text-box"className="pl-20 pr-20">
                     <h1 className="text-white text-center text-lg font-sm md:text-4xl">
                         My Name is Zeerak.
                     </h1>

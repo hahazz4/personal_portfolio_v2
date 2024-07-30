@@ -3,7 +3,7 @@ import { LampContainer, LampDemo } from './ui/lamp'
 
 const hero = () => {
   return (
-    <div id="welcome" className="mt-20">
+    <div id="welcome" className="sm:mt-10">
         <LampDemo/>
     </div>
   )
