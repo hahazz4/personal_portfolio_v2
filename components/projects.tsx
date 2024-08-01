@@ -13,11 +13,30 @@ const data = [
     videoURL: "/gunkii_shopping_cart_demo.mp4",
   },
   {
+    src: '/images/current_portfolio.png',
+    title: 'Current Portfolio Website',
+    description: 'My current personal portfolio',
+    category: 'Portfolio (Project)',
+    content: 'Made using Typescript, Next JS, React, Tailwind CSS, and Aceternity UI. Displays projects, resume, socials.',
+    repository: 'https://github.com/hahazz4/personal_portfolio_v2',
+    website: 'https://zeerakasim.ca/'
+  },
+  {
+    src: '/images/old_portfolio.png',
+    title: 'Old Portfolio Website (2022-2024)',
+    description: 'My old personal portfolio',
+    category: 'Portfolio (Project)',
+    content: 'Made using HTML, CSS, Bootstrap, and Javascript. Displays my reusme, who I am, my projects, and my socials.',
+    repository: 'https://github.com/hahazz4/My_Personal_Portfolio',
+    website: 'https://hahazz4.github.io/My_Personal_Portfolio/'
+  },
+  {
     src: '/images/RecipeHuntAppPic.png',
     title: 'RecipeHunt App',
     description: 'Hack the 6ix Hackathon Project',
     category: 'Hackathon',
     content: 'A Hack the 6ix (hackathon) team project that allows users to find recipes based on the ingredients that they have at home. The application will provide a list of recipes that use those ingredients.',
+    repository: 'https://github.com/Nickysterling/hack-the-6ix',
     videoURL: "/recipehunt_app_hackathon_demo.mp4",
   },
   {
@@ -26,6 +45,7 @@ const data = [
     description: 'Hack the North Hackathon Project',
     category: 'Hackathon',
     content: 'A Hack the North (hackathon) team project that teaches and tests peoples knowledge of different country facts.',
+    repository: 'https://github.com/CipherDoc34/Hack-the-north',
     videoURL: "/countrypedia_app_demo.mp4",
   },
   {
@@ -34,6 +54,7 @@ const data = [
     description: `A hardware/software Project for Queen's Hyperloop Design Team`,
     category: 'Project',
     content: 'A visual presentation and programmed Arduino script for pressure transducer and temperature sensor.',
+    repository: 'https://github.com/hahazz4/qhdt_sensors',
     videoURL: "/qhdt_year1project_demo.mp4",
   },
   {
@@ -42,6 +63,7 @@ const data = [
     description: `A React Weather App`,
     category: 'Project',
     content: 'A React.js app that allows you to search a country or city, display its temperature and weather condition using the OpenWeatherMap API.',
+    repository: 'https://github.com/hahazz4/WeatherApp',
     videoURL: "/weather_app_demo.mp4",
   },
   {
@@ -50,6 +72,7 @@ const data = [
     description: `A Netbeans Java Fibonacci Term App`,
     category: 'Project',
     content: 'Programmed using Java. Finds the number when given the position of the term for Fibonacci algorithm.',
+    repository: 'https://github.com/hahazz4/fibonacci_term_gui',
     videoURL: "/fibonacci_term_finder_demo.mp4",
   },
   {
@@ -58,15 +81,17 @@ const data = [
     description: `A simple HTML,CSS,JS Todo List App`,
     category: 'Project',
     content: 'A simple todo list web app made with, HTML, CSS, Bootstrap and powered by JavaScript console.',
-    // videoURL: "/fibonacci_term_finder_demo.mp4",
+    repository: 'https://github.com/hahazz4/Todo-List',
+    website: 'https://hahazz4.github.io/Todo-List/'
   },
   {
     src: '/images/experimenting portfolio mockup 2021.png',
     title: 'Portfolio Mockup (2021)',
     description: `A Portfolio Mockup (2021)`,
     category: 'Project',
-    content: 'A portfolio prototype programmed using HTML and CSS.',
-    // videoURL: "/fibonacci_term_finder_demo.mp4",
+    content: 'A portfolio prototype I had programmed as a beginner using HTML and CSS.',
+    repository: 'https://github.com/hahazz4/Best_Website_I_Created',
+    website: 'https://hahazz4.github.io/Best_Website_I_Created/'
   },
 ];
 

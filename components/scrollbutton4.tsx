@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 
-const ScrollButton3 = () => {
+const ScrollButton4 = () => {
   const handleScroll = () => {
     document.getElementById("socials")?.scrollIntoView({behavior: "smooth"});
   };
@@ -23,4 +23,4 @@ const ScrollButton3 = () => {
   );
 };
 
-export default ScrollButton3;
+export default ScrollButton4;

@@ -27,7 +27,7 @@ export default function Home(){
           </div>
         </div>
 
-        <div id="projects" className="pt-20 pb-20">
+        <div id="projects" className="pt-10 pb-20">
           <div className="mt-20 mb-60">
             <Projects/>
           </div>
@@ -41,10 +41,10 @@ export default function Home(){
             <ScrollButton5 />
           </div>
         </div>
-        <div id="footer" className="flex justify-center items-center text-white">
-          <p>© 2024 Copyright: Zeerak Asim</p>
-        </div>
       </TracingBeam>
+      <div id="footer" className="flex justify-center items-center text-white">
+        <p>© 2024 Copyright Made By Zeerak Asim</p>
+      </div>
     </main>
   );
 }

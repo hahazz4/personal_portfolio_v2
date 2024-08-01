@@ -15,14 +15,13 @@ export function LampDemo() {
           duration: 0.8,
           ease: "easeInOut",
         }}
-        className="mt-12 bg-gradient-to-br from-slate-100 to-slate-100 py-4 bg-clip-text text-center text-2xl font-medium tracking-tight text-transparent sm:text-4xl md:text-5xl">
-        Welcome to My Personal Portfolio<br />
+        id="welcome-text" className="bg-gradient-to-br from-slate-100 to-slate-100 py-4 bg-clip-text text-center text-2xl font-medium tracking-tight text-transparent sm:text-3xl md:text-5xl">
+        Welcome to My Personal Portfolio<br/>
       </motion.h1>
       <motion.div
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
-        transition={{ delay: 1.2, duration: 0.5, ease: "easeInOut" }}
-        className="mt-4">
+        transition={{ delay: 1.2, duration: 0.5, ease: "easeInOut" }}>
         <ScrollButton />
       </motion.div>
     </LampContainer>
@@ -41,8 +40,7 @@ export const LampContainer = ({
       className={cn(
         "relative flex min-h-screen flex-col items-center justify-center overflow-hidden bg-[#0e0217] w-full rounded-md z-0",
         className
-      )}
-    >
+      )}>
       <div className="relative flex w-full flex-1 items-center justify-center isolate z-0">
         <motion.div
           initial={{ opacity: 0.5, width: "8rem" }}
@@ -100,7 +98,7 @@ export const LampContainer = ({
         <div className="absolute inset-auto z-40 h-22 w-full -translate-y-[6.25rem] bg-[#0e0217] md:h-44 md:-translate-y-[12.5rem]"></div>
       </div>
 
-      <div className="relative z-50 flex -translate-y-40 flex-col items-center px-5 md:-translate-y-80">
+      <div id="resize-mob" className="relative z-50 flex -translate-y-40 flex-col items-center px-5 md:-translate-y-80">
         {children}
       </div>
     </div>
