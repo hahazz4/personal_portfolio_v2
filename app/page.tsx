@@ -6,6 +6,7 @@ import Socials from "@/components/socials";
 import ScrollButton3 from "@/components/scrollbutton3";
 import ScrollButton5 from "@/components/scrollbutton5";
 import { TracingBeam } from "@/components/ui/tracing-beam";
+// import { BackgroundBeamsWithCollision } from "@/components/ui/background-beams-with-collision";
 
 export default function Home(){
   return (
