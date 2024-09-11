@@ -101,7 +101,7 @@ const cards = data.map((card, index) => (
 
 const Projects = () => {
   return (
-    <div className="mt-20">
+    <div className="justify-center items-center mt-20">
       <h1 className="text-white text-center text-lg font-sm md:text-4xl">
         My Projects
       </h1>
