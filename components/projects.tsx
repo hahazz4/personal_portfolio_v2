@@ -5,21 +5,21 @@ import { Carousel, Card } from "@/components/ui/apple-cards-carousel";
 
 const data = [
   {
+    src: '/images/headstarter_img.png',
+    title: 'Headstarter AI Projects Portfolio',
+    description: 'Headstarter Portfolio with 4+ Project Submissions',
+    category: 'Fellowship @ Headstarter',
+    content: `Built 4+ applications with AI using Next js, Tailwind CSS, Material UI, Node.js, TypeScript, JavaScript.
+    Incorporated LLM integration with methods like RAG, APIs like Gemini, OpenAI API, and much more...`,
+    website: 'https://app.theheadstarter.com/profile/zeerakasim'
+  },
+  {
     src: '/images/gunkii_sc.png',
     title: 'Gunkii Shopping Cart UI',
     description: 'A Shopping Cart UI',
     category: 'Co-op @ Gunkii',
     content: 'This work was one of the tickets I worked on when working at Gunkii.',
     videoURL: "/gunkii_shopping_cart_demo.mp4",
-  },
-  {
-    src: '/images/current_portfolio.png',
-    title: 'Current Portfolio Website',
-    description: 'My current personal portfolio',
-    category: 'Portfolio (Project)',
-    content: 'Made using Typescript, Next JS, React, Tailwind CSS, and Aceternity UI. Displays projects, resume, socials.',
-    repository: 'https://github.com/hahazz4/personal_portfolio_v2',
-    website: 'https://zeerakasim.ca/'
   },
   {
     src: '/images/old_portfolio.png',
@@ -57,42 +57,43 @@ const data = [
     repository: 'https://github.com/hahazz4/qhdt_sensors',
     videoURL: "/qhdt_year1project_demo.mp4",
   },
-  {
-    src: '/images/WeatherAppPic.png',
-    title: 'Weather App',
-    description: `A React Weather App`,
-    category: 'Project',
-    content: 'A React.js app that allows you to search a country or city, display its temperature and weather condition using the OpenWeatherMap API.',
-    repository: 'https://github.com/hahazz4/WeatherApp',
-    videoURL: "/weather_app_demo.mp4",
-  },
-  {
-    src: '/images/FibonacciTermAlgoApp.png',
-    title: 'Fibonacci Term App',
-    description: `A Netbeans Java Fibonacci Term App`,
-    category: 'Project',
-    content: 'Programmed using Java. Finds the number when given the position of the term for Fibonacci algorithm.',
-    repository: 'https://github.com/hahazz4/fibonacci_term_gui',
-    videoURL: "/fibonacci_term_finder_demo.mp4",
-  },
-  {
-    src: '/images/Todo List App.png',
-    title: 'Todo List App',
-    description: `A simple HTML,CSS,JS Todo List App`,
-    category: 'Project',
-    content: 'A simple todo list web app made with, HTML, CSS, Bootstrap and powered by JavaScript console.',
-    repository: 'https://github.com/hahazz4/Todo-List',
-    website: 'https://hahazz4.github.io/Todo-List/'
-  },
-  {
-    src: '/images/experimenting portfolio mockup 2021.png',
-    title: 'Portfolio Mockup (2021)',
-    description: `A Portfolio Mockup (2021)`,
-    category: 'Project',
-    content: 'A portfolio prototype I had programmed as a beginner using HTML and CSS.',
-    repository: 'https://github.com/hahazz4/Best_Website_I_Created',
-    website: 'https://hahazz4.github.io/Best_Website_I_Created/'
-  },
+  // Old Projects
+  // {
+  //   src: '/images/WeatherAppPic.png',
+  //   title: 'Weather App',
+  //   description: `A React Weather App`,
+  //   category: 'Project',
+  //   content: 'A React.js app that allows you to search a country or city, display its temperature and weather condition using the OpenWeatherMap API.',
+  //   repository: 'https://github.com/hahazz4/WeatherApp',
+  //   videoURL: "/weather_app_demo.mp4",
+  // },
+  // {
+  //   src: '/images/FibonacciTermAlgoApp.png',
+  //   title: 'Fibonacci Term App',
+  //   description: `A Netbeans Java Fibonacci Term App`,
+  //   category: 'Project',
+  //   content: 'Programmed using Java. Finds the number when given the position of the term for Fibonacci algorithm.',
+  //   repository: 'https://github.com/hahazz4/fibonacci_term_gui',
+  //   videoURL: "/fibonacci_term_finder_demo.mp4",
+  // },
+  // {
+  //   src: '/images/Todo List App.png',
+  //   title: 'Todo List App',
+  //   description: `A simple HTML,CSS,JS Todo List App`,
+  //   category: 'Project',
+  //   content: 'A simple todo list web app made with, HTML, CSS, Bootstrap and powered by JavaScript console.',
+  //   repository: 'https://github.com/hahazz4/Todo-List',
+  //   website: 'https://hahazz4.github.io/Todo-List/'
+  // },
+  // {
+  //   src: '/images/experimenting portfolio mockup 2021.png',
+  //   title: 'Portfolio Mockup (2021)',
+  //   description: `A Portfolio Mockup (2021)`,
+  //   category: 'Project',
+  //   content: 'A portfolio prototype I had programmed as a beginner using HTML and CSS.',
+  //   repository: 'https://github.com/hahazz4/Best_Website_I_Created',
+  //   website: 'https://hahazz4.github.io/Best_Website_I_Created/'
+  // },
 ];
 
 const cards = data.map((card, index) => (
