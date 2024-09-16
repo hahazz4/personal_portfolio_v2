@@ -3,7 +3,6 @@ import Me from "@/components/Me";
 import Resume from "@/components/resume";
 import Projects from "@/components/projects";
 import Socials from "@/components/socials";
-import ScrollButton3 from "@/components/scrollbutton3";
 import ScrollButton5 from "@/components/scrollbutton5";
 import { TracingBeam } from "@/components/ui/tracing-beam";
 

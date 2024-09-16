@@ -1,6 +1,4 @@
-import React from 'react'
-import ScrollButton5 from './scrollbutton5'
-import {AiFillGithub, AiFillRedditCircle} from 'react-icons/ai'
+import { AiFillGithub, AiFillRedditCircle } from 'react-icons/ai'
 import { FiMail } from 'react-icons/fi'
 import { FaLinkedin } from 'react-icons/fa'
 

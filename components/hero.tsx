@@ -1,5 +1,5 @@
 import React from 'react'
-import { LampContainer, LampDemo } from './ui/lamp'
+import { LampDemo } from './ui/lamp'
 
 const hero = () => {
   return (

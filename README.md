@@ -1,36 +1,70 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+### Personal Portfolio Website - Version 2
+This is the second version of my personal portfolio website.
+
+## Welcome
+Hello! I'm Zeerak Asim, an aspiring New Grad Software Engineer!
+
+This repository contains the source code for my personal portfolio website. I appreciate any feedback regarding the user interface, functionality, or any bugs you might encounter. Please feel free to reach out through the contact information provided on my website.
+
+## Live Demo
+Visit the live site: https://zeerakasim.ca/
+
+## Technologies Used
+Next.js: A React framework for server-side rendering and generating static websites.
+Tailwind CSS: A utility-first CSS framework for rapid UI development.
+TypeScript: The programming language used throughout the project.
+Node.js: JavaScript runtime environment.
+Vercel: Hosting platform for deploying the Next.js application.
 
 ## Getting Started
+If you'd like to run this project locally, follow these steps.
 
-First, run the development server:
+## Prerequisites
+Ensure you have the following installed on your machine:
+- Node.js (version 14.0.0 or higher) - Download Node.js
+- npm (comes with Node.js)
+- Git - Download Git
+- Visual Studio Code or any code editor
 
-```bash
+## Installation
+### Clone the Repository
+git clone https://github.com/hahazz4/personal_portfolio_v2.git
+
+### Navigate to the Project Directory
+cd personal_portfolio_v2
+
+### Install Dependencies
+npm install
+
+## Running the Application
+### Start the development server:
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The application should now be running on http://localhost:3000/. Open your browser and navigate to this URL to view the website.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Tip: In most terminals, you can hold Ctrl (Windows) or Command (macOS) and click the link to open it directly in your default browser.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Building for Production
+To create an optimized production build:
+npm run build
 
-## Learn More
+### To start the production server:
+npm start
 
-To learn more about Next.js, take a look at the following resources:
+## Deployment
+This project is deployed using Vercel. For more information on how to deploy Next.js applications, refer to the Vercel Deployment Documentation.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Troubleshooting
+If you encounter any issues:
+- Check Node.js and npm Versions: Verify that Node.js and npm are installed correctly by running node -v and npm -v in your terminal.
+- Install Dependencies: Ensure all dependencies are installed with npm install.
+- Common Issues: Check the Next.js documentation for common issues and solutions.
+- Contact Me: Feel free to reach out via the contact information on my website.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## License
+This project is licensed under the MIT License.
 
-## Deploy on Vercel
+## Feedback
+Your feedback is valuable. If you have any suggestions or find any bugs, please let me know by opening an issue or contacting me through my website.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Thanks for tuning in, I know I yapped a lot, so go outside for some fresh air, and have a nice day!
