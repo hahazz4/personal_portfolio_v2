@@ -9,18 +9,22 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@eslint/config-array": "^0.19.1",
+    "@eslint/object-schema": "^2.1.5",
     "@fortawesome/fontawesome-svg-core": "^6.6.0",
     "@fortawesome/free-solid-svg-icons": "^6.6.0",
     "@fortawesome/react-fontawesome": "^0.2.2",
     "@tabler/icons-react": "^3.12.0",
     "clsx": "^2.1.1",
     "framer-motion": "^11.5.4",
-    "next": "14.2.5",
+    "glob": "^11.0.1",
+    "next": "^15.1.4",
     "react": "^18",
     "react-dom": "^18",
     "react-element-to-jsx-string": "^15.0.0",
-    "react-icons": "^5.2.1",
+    "react-icons": "^5.4.0",
     "react-scroll": "^1.9.0",
+    "rimraf": "^6.0.1",
     "tailwind-merge": "^2.5.2"
   },
   "devDependencies": {
