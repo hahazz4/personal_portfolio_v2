@@ -10,7 +10,7 @@ const resume = () => {
       </h1>
       <div className="flex text-white justify-center mt-3">
         <p className="text-white text-center mr-2">Click Here -&gt;</p>
-        <a href = "\Zeerak_Resume_V4.51.pdf" target = "_blank"><GiClick color='white' size={35}/></a>
+        <a href = "\Zeerak_Resume_V5.0.pdf" target = "_blank"><GiClick color='white' size={35}/></a>
       </div>
       <div className="mt-10">
           <ScrollButton3 />
