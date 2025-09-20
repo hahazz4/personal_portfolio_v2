@@ -5,6 +5,7 @@ import Projects from "@/components/projects";
 import Socials from "@/components/socials";
 import ScrollButton5 from "@/components/scrollbutton5";
 import { TracingBeam } from "@/components/ui/tracing-beam";
+import Certs from "@/components/certs";
 
 export default function Home(){
   return (
@@ -23,6 +24,7 @@ export default function Home(){
         <div id="resume" className="pt-20 pb-20">
           <div className="mt-20 mb-60" style={{alignItems: "center"}}>
             <Resume/>
+            <Certs />
           </div>
         </div>
 

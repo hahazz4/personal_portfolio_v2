@@ -2,6 +2,7 @@
 import React from 'react';
 import ScrollButton4 from './scrollbutton4';
 import { Carousel, Card } from "@/components/ui/apple-cards-carousel";
+import { caveat } from '@/app/fonts';
 
 const data = [
   {
@@ -95,8 +96,8 @@ const cards = data.map((card, index) => (
 const Projects = () => {
   return (
     <div className="justify-center items-center mt-20">
-      <h1 className="text-white text-center text-lg font-sm md:text-4xl">
-        My Projects
+      <h1 className="text-white text-center text-3xl font-sm md:text-5xl">
+        <span className={caveat.className}>My Projects</span>
       </h1>
 
       <div className="w-full h-full pt-0 py-10">
