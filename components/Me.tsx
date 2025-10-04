@@ -6,7 +6,7 @@ import { caveat, roboto } from '@/app/fonts';
 
 const Me = () => {
     const words = [
-        "I am a New Computer Engineering Graduate",
+        "I am a Recent Computer Engineering Graduate",
         "Born in Melbourne, Australia",
         "I am passionate about Software Engineering",
         "I am passionate about AI",
