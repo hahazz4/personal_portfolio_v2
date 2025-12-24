@@ -11,7 +11,7 @@ const resume = () => {
       </h1>
       <div className="flex text-white justify-center mt-3">
         <p className="text-white text-center mr-2"><span className={roboto.className}>Click Here -&gt;</span></p>
-        <a href = "\Zeerak_Asim_Resume.pdf" target = "_blank"><GiClick color='white' size={35}/></a>
+        <a href = "\Zeerak_Resume.pdf" target = "_blank"><GiClick color='white' size={35}/></a>
       </div>
     </div>
   )
