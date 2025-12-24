@@ -18,7 +18,7 @@ const Me = () => {
         <div id="intro" className="flex flex-col justify-center items-center mt-20">
             <div id="pfp" className="text-center mb-10">
                 <Image 
-                src="/images/zeerak_pfp.png"
+                src="/images/zee_suit_img2.jpg"
                 alt="Picture of Zeerak Asim in a suit"
                 width={300}
                 height={300}
