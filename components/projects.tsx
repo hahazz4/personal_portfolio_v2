@@ -44,6 +44,14 @@ const data = [
     videoURL: "/gunkii_shopping_cart_demo.mp4",
   },
   {
+    src: '/images/web-temp.png',
+    title: 'Website Template',
+    description: 'A website template',
+    category: 'UI/UX Web',
+    content: 'This work was one of the demos I made when freelancing.',
+    website: 'https://web-template-1-opal.vercel.app/',
+  },
+  {
       src: '/images/memory_alloc_project.png',
       title: 'Memory Allocator',
       description: `A Memory Allocator in C++`,
