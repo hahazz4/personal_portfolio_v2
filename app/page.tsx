@@ -44,7 +44,7 @@ export default function Home(){
         </div>
       </TracingBeam>
       <div id="footer" className="flex justify-center items-center pb-10 text-white text-sm md:text-md lg:text-lg">
-        <p>© 2025 Copyright Made By Zeerak Asim</p>
+        <p>© 2026 Copyright Made By Zeerak Asim</p>
       </div>
     </main>
   );
